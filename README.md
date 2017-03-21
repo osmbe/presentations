@@ -1,14 +1,22 @@
 # presentations
-A place to drop and share your presentations about OpenStreetMap
+A place to drop and share your presentations about OpenStreetMap. 
 
-## Dropbox ##
- - https://www.dropbox.com/sh/xsr4ed9w5dwgzab/AAAMeTT-bpnt7BLmvt7OSYWUa?dl=0
+If you have your presentation in a file, upload it to Github. Then we can do versioning!
 
-## ODP ##
- - http://www.nobohan.be/docs/2015_03_23_CafeNumeriqueArlon_OpenStreetMap_Minet.odp
+Training material is welcome too!
+
+Post an issue if you need help.
+
+You can also drop a link below by editing the ReadMe.
+
+
+## Links ##
+Ben Abelshausen at BeGeo 2017
+- http://slides.com/benabelshausen-1/deck
+
+Julien Minet at Café Numerique Arlon:
+- http://www.nobohan.be/docs/2015_03_23_CafeNumeriqueArlon_OpenStreetMap_Minet.odp
+- http://www.nobohan.be/docs/2015_03_23_CafeNumeriqueArlon_OpenStreetMap_Minet.pdf
  
-## PDF's ##
- - http://www.nobohan.be/docs/2015_03_23_CafeNumeriqueArlon_OpenStreetMap_Minet.pdf
- 
-## Slideshare ##
+Glenn Plas on OSM as a datasource
  - http://www.slideshare.net/glennplas/opendata-namen
