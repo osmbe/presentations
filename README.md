@@ -20,3 +20,8 @@ Julien Minet at Café Numerique Arlon:
  
 Glenn Plas on OSM as an open data source
  - http://www.slideshare.net/glennplas/opendata-namen
+
+
+## license ##
+
+All presentations and materials available here are expected to be CC_BY, unless otherwise stated by the author.
