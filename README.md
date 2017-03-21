@@ -18,5 +18,5 @@ Julien Minet at Café Numerique Arlon:
 - http://www.nobohan.be/docs/2015_03_23_CafeNumeriqueArlon_OpenStreetMap_Minet.odp
 - http://www.nobohan.be/docs/2015_03_23_CafeNumeriqueArlon_OpenStreetMap_Minet.pdf
  
-Glenn Plas on OSM as a datasource
+Glenn Plas on OSM as an open data source
  - http://www.slideshare.net/glennplas/opendata-namen
