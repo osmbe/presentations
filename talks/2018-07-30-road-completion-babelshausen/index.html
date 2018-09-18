@@ -1,0 +1,706 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="theme-font-montserrat theme-color-white-blue" style="width: 100%; height: 100%;">
+			<div class="reveal">
+				<div class="slides">
+					<section data-background-size="contain" data-background-image="https://s3.amazonaws.com/media-p.slid.es/uploads/669210/images/4253337/road-completion.png" data-background-color="rgb(93,104,38)">
+						<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 70px; height: auto;">
+							<div class="sl-block-content" style="z-index: 11; color: rgb(255, 255, 255);">
+								<p>Road Completion in Belgium - Mapping &amp; verifying *all* the roads</p>
+								<p>&nbsp;</p>
+								<p>by</p>
+								<p>OpenStreetMap Belgium</p>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 222px; height: 222px; left: 363px; top: 362px;">
+							<div class="sl-block-content" style="z-index: 12;">
+								<img style="" data-natural-width="200" data-natural-height="200" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/669210/images/3588641/logo.png"/>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="text" style="width: 864px; left: 30px; top: 58px; height: auto;">
+							<div class="sl-block-content" style="font-size: 200%; text-align: left; z-index: 11;">
+								<h1>Map
+									<br/>
+		The
+									<br/>
+		World!
+								</h1>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 960px; left: 0px; top: 0px;">
+							<div class="sl-block-content" style="z-index: 11;">
+								<h1>'State of the Map' in Belgium</h1>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 845px; left: 80px; top: 210px;">
+							<div class="sl-block-content" style="z-index: 12;">
+								<p style="text-align:left">
+									<span style="font-size:1.6em">- Excellent basemap.</span>
+								</p>
+								<p style="text-align:left">
+									<span style="font-size:1.6em">- Excellent state of transport-related data</span>
+								</p>
+								<p style="text-align:left">
+									<span style="font-size:1.6em">&nbsp; - Good quality road network.</span>
+								</p>
+								<p style="text-align:left">
+									<span style="font-size:1.6em">&nbsp; - Good quality transit data.</span>
+								</p>
+								<p style="text-align:left">
+									<span style="font-size:1.6em">- Reasonable landuse.</span>
+								</p>
+								<p style="text-align:left">
+									<span style="font-size:1.6em">- Basic address coverage</span>
+								</p>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 34px; height: auto;">
+							<div class="sl-block-content" style="z-index: 11;">
+								<p>
+									<span style="font-size:4.0em">How far along are we?</span>
+								</p>
+								<p>
+									<span style="font-size:4.0em">How do we know?</span>
+								</p>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 157px; height: auto;">
+							<div class="sl-block-content" style="z-index: 10;">
+								<p>
+									<span style="font-size:4.0em">What if things change?</span>
+								</p>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 749px; left: 106px; top: 57px;">
+							<div class="sl-block-content" style="z-index: 12;">
+								<h1>Road Completion</h1>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 960px; height: 411px; left: 0px; top: 241px;">
+							<div class="sl-block-content" style="z-index: 14;">
+								<img style="" data-natural-width="600" data-natural-height="257" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/669210/images/3589395/road-completion.gif"/>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="text" style="height: auto; width: 749px; left: 131px; top: 70px;">
+							<div class="sl-block-content" style="z-index: 11;">
+								<h1>Road Completion</h1>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="text" style="height: auto; width: 896px; left: 43px; top: 323px;">
+							<div class="sl-block-content" style="z-index: 12;">
+								<p>
+									<span style="font-size:2.5em">Not about importing data!</span>
+								</p>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="text" style="height: auto; width: 749px; left: 117px; top: 22px;">
+							<div class="sl-block-content" style="z-index: 11;">
+								<h1>Road Completion</h1>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="text" style="height: auto; width: 896px; left: 43px; top: 323px;">
+							<div class="sl-block-content" style="z-index: 12;">
+								<p>
+									<span style="font-size:2.5em">Not about changing the way we map!</span>
+								</p>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="text" style="height: auto; width: 841px; left: 80px; top: 188px;">
+							<div class="sl-block-content" style="z-index: 11;">
+								<p style="text-align:left">
+									<span style="font-size:1.4em">- Completeness &amp; quality assurances.</span>
+								</p>
+								<p style="text-align:left">
+									<span style="font-size:1.4em">- Change detection, spot changes faster</span>
+								</p>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="image" style="width: 759px; height: 325px; left: 101px; top: 350px; min-width: 4px; min-height: 4px;">
+							<div class="sl-block-content" style="z-index: 12;">
+								<img style="" data-natural-width="600" data-natural-height="257" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/669210/images/3589395/road-completion.gif"/>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="text" style="height: auto; width: 749px; left: 111px; top: 15px;">
+							<div class="sl-block-content" style="z-index: 13;">
+								<h1>Road Completion</h1>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="image" style="width: 142px; height: 142px; left: 720px; top: 496px; min-width: 4px; min-height: 4px;">
+							<div class="sl-block-content" style="z-index: 10;">
+								<img style="" data-natural-width="200" data-natural-height="200" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/669210/images/3588641/logo.png"/>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="text" style="height: auto; width: 749px; left: 119px; top: 15px;">
+							<div class="sl-block-content" style="z-index: 11;">
+								<h1>Road Completion Project</h1>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 934px; left: 26px; top: 280px;">
+							<div class="sl-block-content" style="z-index: 13;">
+								<ol>
+									<li style="text-align:left">
+										<span style="font-size:2.0em">Compare OSM &lt;-&gt; Other data </span>
+									</li>
+									<li style="text-align:left">
+										<span style="font-size:2.0em">Mapping!</span>
+									</li>
+									<li style="text-align:left">
+										<span style="font-size:2.0em">Feedback</span>
+									</li>
+								</ol>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 794px; height: 452px; left: 80px; top: 108px;">
+							<div class="sl-block-content" style="z-index: 11;">
+								<img style="" data-natural-width="511" data-natural-height="291" data-lazy-loaded="" data-src="https://github.com/osmbe/road-completion/raw/master/old/docs/diagram.png"/>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 316px; left: 164px; top: 225px;">
+							<div class="sl-block-content" style="z-index: 12;">
+								<p>Loop 1</p>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 316px; left: 511px; top: 225px;">
+							<div class="sl-block-content" style="z-index: 13;">
+								<p>Loop 2</p>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="text" style="height: auto; width: 728px; left: 116px; top: 48px;">
+							<div class="sl-block-content" style="z-index: 12;">
+								<h2>Comparison (tech)</h2>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 879px; left: 41px; top: 140px;">
+							<div class="sl-block-content" style="z-index: 13;">
+								<p style="text-align:left">- Convert source data (shapefiles, wegenregister)</p>
+								<p style="text-align:left">&nbsp; - ogr2ogr : reproject and convert to geojson</p>
+								<p style="text-align:left">&nbsp; - nodejs : convert attributes to OSM-tags</p>
+								<p style="text-align:left">&nbsp; &nbsp; =&gt; this makes the comparion process independent of&nbsp; source.</p>
+								<p style="text-align:left">&nbsp; - mapbox/tippecanoe : split into vector tiles</p>
+								<p style="text-align:left">&nbsp;</p>
+								<p style="text-align:left">- Distributed comparison process:</p>
+								<p style="text-align:left">&nbsp; - mapbox/tilereduce : process tiles in parallel.</p>
+								<p style="text-align:left">&nbsp;</p>
+								<p style="text-align:left">GitHub:
+									<a href="https://github.com/osmbe/road-completion" target="_blank">https://github.com/osmbe/road-completion</a>
+								</p>
+								<ol></ol>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 163px; height: 140px; left: 45px; top: 222px;">
+							<div class="sl-block-content" style="z-index: 11;">
+								<img style="" data-natural-width="700" data-natural-height="600" data-lazy-loaded="" data-src="https://github.com/osmbe/road-completion/raw/master/old/docs/tile-example/source.png"/>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 163px; height: 140px; left: 33px; top: 420px;">
+							<div class="sl-block-content" style="z-index: 12;">
+								<img style="" data-natural-width="700" data-natural-height="600" data-lazy-loaded="" data-src="https://github.com/osmbe/road-completion/raw/master/old/docs/tile-example/osm.png"/>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 163px; height: 140px; left: 272px; top: 426px;">
+							<div class="sl-block-content" style="z-index: 14;">
+								<img style="" data-natural-width="700" data-natural-height="600" data-lazy-loaded="" data-src="https://github.com/osmbe/road-completion/raw/master/old/docs/tile-example/buffer.png"/>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 163px; height: 140px; left: 522px; top: 311px;">
+							<div class="sl-block-content" style="z-index: 15;">
+								<img style="" data-natural-width="700" data-natural-height="600" data-lazy-loaded="" data-src="https://github.com/osmbe/road-completion/raw/master/old/docs/tile-example/buffer-and-source.png"/>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 163px; height: 140px; left: 757px; top: 311px;">
+							<div class="sl-block-content" style="z-index: 16;">
+								<img style="" data-natural-width="700" data-natural-height="600" data-lazy-loaded="" data-src="https://github.com/osmbe/road-completion/raw/master/old/docs/tile-example/comparison.png"/>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 208px; top: 292px;">
+							<div class="sl-block-content" data-line-x1="142" data-line-y1="83" data-line-x2="-172" data-line-y2="42" data-line-color="#000000" data-line-start-type="line-arrow" data-line-end-type="none" style="z-index: 17;" data-line-width="6px">
+								<svg
+									xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMidYMid" width="314" height="41" viewBox="-172 42 314 41">
+									<line stroke="rgba(0,0,0,0)" stroke-width="15" x1="138" y1="82" x2="-172" y2="42"></line>
+									<line stroke="#000000" stroke-width="6" x1="138" y1="82" x2="-172" y2="42"></line>
+									<path style="fill: rgba(0,0,0,0);" stroke="#000000" stroke-width="6" transform="translate(138,82) rotate(-82.561)" d="M -13.5 -13.5 L 0 0 L 13.5 -13.5"></path>
+								</svg>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 196px; top: 490px;">
+							<div class="sl-block-content" data-line-x1="-184" data-line-y1="240" data-line-x2="-108" data-line-y2="240" data-line-color="#000000" data-line-start-type="none" data-line-end-type="line-arrow" style="z-index: 18;" data-line-width="6px">
+								<svg
+									xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMidYMid" width="76" height="1" viewBox="-184 240 76 1">
+									<line stroke="rgba(0,0,0,0)" stroke-width="15" x1="-184" y1="240" x2="-112" y2="240"></line>
+									<line stroke="#000000" stroke-width="6" x1="-184" y1="240" x2="-112" y2="240"></line>
+									<path style="fill: rgba(0,0,0,0);" stroke="#000000" stroke-width="6" transform="translate(-112,240) rotate(90)" d="M 13.5 13.5 L 0 0 L -13.5 13.5"></path>
+								</svg>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 435px; top: 426px;">
+							<div class="sl-block-content" data-line-x1="0" data-line-y1="200" data-line-x2="87" data-line-y2="136" data-line-color="#000000" data-line-start-type="none" data-line-end-type="line-arrow" style="z-index: 19;" data-line-width="6px">
+								<svg
+									xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMidYMid" width="87" height="64" viewBox="0 136 87 64">
+									<line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="200" x2="83" y2="139"></line>
+									<line stroke="#000000" stroke-width="6" x1="0" y1="200" x2="83" y2="139"></line>
+									<path style="fill: rgba(0,0,0,0);" stroke="#000000" stroke-width="6" transform="translate(83,139) rotate(53.661)" d="M 13.5 13.5 L 0 0 L -13.5 13.5"></path>
+								</svg>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 685px; top: 381px;">
+							<div class="sl-block-content" data-line-x1="377" data-line-y1="131" data-line-x2="305" data-line-y2="131" data-line-color="#000000" data-line-start-type="line-arrow" data-line-end-type="none" style="z-index: 20;" data-line-width="6px">
+								<svg
+									xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMidYMid" width="72" height="1" viewBox="305 131 72 1">
+									<line stroke="rgba(0,0,0,0)" stroke-width="15" x1="373" y1="131" x2="305" y2="131"></line>
+									<line stroke="#000000" stroke-width="6" x1="373" y1="131" x2="305" y2="131"></line>
+									<path style="fill: rgba(0,0,0,0);" stroke="#000000" stroke-width="6" transform="translate(373,131) rotate(270)" d="M -13.5 -13.5 L 0 0 L 13.5 -13.5"></path>
+								</svg>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 218px; left: 22px; top: 362px;">
+							<div class="sl-block-content" style="z-index: 21;">
+								<p>open-data</p>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 218px; left: -10px; top: 578px;">
+							<div class="sl-block-content" style="z-index: 22;">
+								<p>OSM</p>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 218px; left: 240px; top: 578px;">
+							<div class="sl-block-content" style="z-index: 23;">
+								<p>OSM (buffers)</p>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 218px; left: 495px; top: 458px;">
+							<div class="sl-block-content" style="z-index: 24;">
+								<p>comparison</p>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 218px; left: 733px; top: 458px;">
+							<div class="sl-block-content" style="z-index: 25;">
+								<p>diff</p>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 336px; height: 192px; left: 624px; top: 0px;">
+							<div class="sl-block-content" style="z-index: 26;">
+								<img style="" data-natural-width="511" data-natural-height="292" data-lazy-loaded="" data-src="https://github.com/osmbe/road-completion/raw/master/old/docs/diagram-compare.png"/>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="text" style="height: auto; width: 465px; left: 80px; top: 42px;">
+							<div class="sl-block-content" style="z-index: 27;">
+								<h2>Comparison</h2>
+								<p>(v 0.1)</p>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 615px; height: 527px; left: 185px; top: 173px;">
+							<div class="sl-block-content" style="z-index: 11;">
+								<img style="" data-natural-width="700" data-natural-height="600" data-lazy-loaded="" data-src="https://github.com/osmbe/road-completion/raw/master/old/docs/tile-example/comparison.gif"/>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="text" style="height: auto; width: 465px; left: 61px; top: 39px;">
+							<div class="sl-block-content" style="z-index: 12;">
+								<h2>Comparison</h2>
+								<p>(v 0.1)</p>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 336px; height: 192px; left: 624px; top: 0px;">
+							<div class="sl-block-content" style="z-index: 14;">
+								<img style="" data-natural-width="511" data-natural-height="292" data-lazy-loaded="" data-src="https://github.com/osmbe/road-completion/raw/master/old/docs/diagram-compare.png"/>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="text" style="height: auto; width: 465px; left: 61px; top: 39px;">
+							<div class="sl-block-content" style="z-index: 12;">
+								<h2>Comparison</h2>
+								<p>(v 0.1)</p>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="image" style="width: 336px; height: 192px; left: 624px; top: 0px; min-width: 4px; min-height: 4px;">
+							<div class="sl-block-content" style="z-index: 13;">
+								<img style="" data-natural-width="511" data-natural-height="292" data-lazy-loaded="" data-src="https://github.com/osmbe/road-completion/raw/master/old/docs/diagram-compare.png"/>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 615px; height: 527px; left: 185px; top: 173px;">
+							<div class="sl-block-content" style="z-index: 10;">
+								<img style="" data-natural-width="700" data-natural-height="600" data-lazy-loaded="" data-src="https://github.com/osmbe/road-completion/raw/master/old/docs/tile-example/comparison.png"/>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="text" style="height: auto; width: 465px; left: 61px; top: 39px;">
+							<div class="sl-block-content" style="z-index: 11;">
+								<h2>Comparison</h2>
+								<p>(v 0.1)</p>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="image" style="width: 336px; height: 192px; left: 624px; top: 0px; min-width: 4px; min-height: 4px;">
+							<div class="sl-block-content" style="z-index: 12;">
+								<img style="" data-natural-width="511" data-natural-height="292" data-lazy-loaded="" data-src="https://github.com/osmbe/road-completion/raw/master/old/docs/diagram-compare.png"/>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 806px; height: 479px; left: 81px; top: 212px;">
+							<div class="sl-block-content" style="z-index: 13;">
+								<img style="" data-natural-width="1259" data-natural-height="748" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/669210/images/4265730/result1.png"/>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="text" style="height: auto; width: 465px; left: 61px; top: 39px;">
+							<div class="sl-block-content" style="z-index: 11;">
+								<h2>Comparison</h2>
+								<p>(v 0.1)</p>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="image" style="width: 336px; height: 192px; left: 624px; top: 0px; min-width: 4px; min-height: 4px;">
+							<div class="sl-block-content" style="z-index: 12;">
+								<img style="" data-natural-width="511" data-natural-height="292" data-lazy-loaded="" data-src="https://github.com/osmbe/road-completion/raw/master/old/docs/diagram-compare.png"/>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 943px; height: 500px; left: 9px; top: 192px;">
+							<div class="sl-block-content" style="z-index: 13;">
+								<img style="" data-natural-width="1169" data-natural-height="620" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/669210/images/4265732/result2.png"/>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 929px; height: 697px; left: 23px; top: 0px;">
+							<div class="sl-block-style" style="z-index: 11; transform: rotate(360deg);">
+								<div class="sl-block-content" style="z-index: 11;">
+									<img style="" data-natural-width="600" data-natural-height="450" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/780962/images/4351301/deelgemeente.gif"/>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 960px; height: 643px; left: 0px; top: 22px;">
+							<div class="sl-block-content" style="z-index: 11;">
+								<img data-natural-width="605" data-natural-height="405" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/780962/images/4387010/volledigheid.jpg.gif"/>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 21px; height: auto;">
+							<div class="sl-block-content" style="z-index: 10;">
+								<h1>Flanders</h1>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="text" style="width: 806px; left: 66px; top: 136px; height: auto;">
+							<div class="sl-block-content" style="z-index: 11;">
+								<p style="text-align:left">
+									<span style="font-size:1.6em">- 13900 cases, mostly driveways</span>
+								</p>
+								<p style="text-align:left">
+									<span style="font-size:1.6em">- maproulette</span>
+								</p>
+								<p style="text-align:left">&nbsp;</p>
+								<p style="text-align:left">
+									<span style="font-size:1.6em">-&gt; only 1842 fixed</span>
+								</p>
+								<p style="text-align:left">
+									<span style="font-size:1.6em">-&gt; we don't want random people doing it</span>
+								</p>
+								<p style="text-align:left">
+									<span style="font-size:1.6em">-&gt; even 'heavy' mappers make it difficult</span>
+								</p>
+								<p style="text-align:left">&nbsp;</p>
+								<p style="text-align:left">&nbsp;</p>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="text" style="height: auto; width: 367px; left: 43px; top: 42px;">
+							<div class="sl-block-content" style="z-index: 11;">
+								<h1>Mapping</h1>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="text" style="height: auto; width: 841px; left: 60px; top: 110px;">
+							<div class="sl-block-content" style="z-index: 12;">
+								<p style="text-align:left">&nbsp;</p>
+								<p style="text-align:left">We built a small app:</p>
+								<p style="text-align:left">
+									<a href="https://road-completion.osm.be/" target="_blank">road-completion.osm.be</a>
+								</p>
+								<p style="text-align:left">&nbsp;</p>
+								<p style="text-align:left">Developed during Open</p>
+								<p style="text-align:left">Summer of Code:</p>
+								<p style="text-align:left">
+									<a href="http://2018.summerofcode.be/" target="_blank">2018.summerofcode.be</a>
+								</p>
+								<p style="text-align:left">&nbsp;</p>
+								<p style="text-align:left">A team of students funded</p>
+								<p style="text-align:left">by Brussels Government...</p>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 500px; height: 375px; left: 445px; top: 152px;">
+							<div class="sl-block-content" style="z-index: 13;">
+								<img style="" data-natural-width="1800" data-natural-height="1350" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/669210/images/5139714/osoc-temp.jpg"/>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="text" style="height: auto; width: 367px; left: 43px; top: 42px;">
+							<div class="sl-block-content" style="z-index: 10;">
+								<h1>Mapping</h1>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="text" style="height: auto; width: 841px; left: 67px; top: 110px;">
+							<div class="sl-block-content" style="z-index: 11;">
+								<p style="text-align:left">&nbsp;</p>
+								<p style="text-align:left">Some examples:</p>
+								<p style="text-align:left">&nbsp;</p>
+								<p style="text-align:left">
+									<a href="https://road-completion.osm.be/#15.74/50.874343/4.422588" target="_blank">https://road-completion.osm.be/#15.74/50.874343/4.422588</a> =&gt; different methodology.
+								</p>
+								<p style="text-align:left">
+									<a href="https://road-completion.osm.be/#17.2/50.873231/4.406509" target="_blank">https://road-completion.osm.be/#17.2/50.873231/4.406509</a> =&gt; false positive
+								</p>
+								<p>&nbsp;</p>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="text" style="height: auto; width: 367px; left: 43px; top: 42px;">
+							<div class="sl-block-content" style="z-index: 10;">
+								<h1>Mapping</h1>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="text" style="height: auto; width: 841px; left: 67px; top: 110px;">
+							<div class="sl-block-content" style="z-index: 11;">
+								<p style="text-align:left">&nbsp;</p>
+								<p style="text-align:left">Some examples:</p>
+								<p style="text-align:left">&nbsp;</p>
+								<p style="text-align:left">
+									<a href="https://road-completion.osm.be/#18.59/50.8662248/4.3984346" target="_blank">https://road-completion.osm.be/#18.59/50.8662248/4.3984346</a> =&gt; missing parking
+								</p>
+								<p style="text-align:left">
+									<a href="https://road-completion.osm.be/#16.6/50.804377/4.40805" target="_blank">https://road-completion.osm.be/#16.6/50.804377/4.40805</a> =&gt; an actual missing street!
+								</p>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 960px; height: 601px; left: 0px; top: 50px;">
+							<div class="sl-block-content" style="z-index: 11;">
+								<img style="" data-natural-width="2157" data-natural-height="1350" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/669210/images/5142631/Screenshot_from_2018-07-29_18-55-58.png"/>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 51px;">
+							<div class="sl-block-content" style="z-index: 11;">
+								<h1>Mid-term goals</h1>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 780px; left: 90px; top: 178px;">
+							<div class="sl-block-content" style="z-index: 12;">
+								<ul>
+									<li>
+										<span style="font-size:1.4em">Verify OSM road network.</span>
+									</li>
+									<li>
+										<span style="font-size:1.4em">Generate quality metrics for OSM roads in Belgium.</span>
+									</li>
+								</ul>
+								<p>&nbsp;</p>
+								<p style="text-align:left">&nbsp;</p>
+								<p style="text-align:left">
+									<span style="font-size:1.6em">Do this is in the open, use open-source tools and open-data so everyone can run their own!</span>
+								</p>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 200px; top: 230px;">
+							<div class="sl-block-content" style="z-index: 13;">
+								<h1>
+									<span style="font-size:1.8em">Why?</span>
+								</h1>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 55px;">
+							<div class="sl-block-content" style="z-index: 10;">
+								<p>
+									<span style="font-size:1.4em">
+										<em>"We don't want to provide our data on a bad network."</em>
+									</span>
+								</p>
+								<p>&nbsp;</p>
+								<p>
+									<span style="font-size:1.4em">
+										<em>"The OSM license doesn't allow combining it with our data."</em>
+									</span>
+								</p>
+								<p>&nbsp;</p>
+								<p>
+									<span style="font-size:1.4em">
+										<em>"Anyone can modify OSM, you have to be crazy to use it!"</em>
+									</span>
+								</p>
+								<p>&nbsp;</p>
+								<p>
+									<span style="font-size:1.4em">
+										<em>"Bla Bla..."</em>
+									</span>
+								</p>
+								<p>&nbsp;</p>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="text" style="height: auto; width: 787px; left: 87px; top: 169px;">
+							<div class="sl-block-content" style="z-index: 10;">
+								<h1>
+									<span style="font-size:3.0em">Trust!</span>
+								</h1>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 134px; height: auto;">
+							<div class="sl-block-content" style="z-index: 10;">
+								<h1>
+									<span style="font-size:1.4em">Quality</span>
+								</h1>
+								<h1>
+									<span style="font-size:1.4em">&amp;</span>
+								</h1>
+								<h1>
+									<span style="font-size:1.4em">Consistency</span>
+								</h1>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: -54px; top: 49px;">
+							<div class="sl-block-content" style="z-index: 11;">
+								<h1>Imagine</h1>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="text" style="height: auto; width: 780px; left: 90px; top: 210px;">
+							<div class="sl-block-content" style="z-index: 12;">
+								<ul>
+									<li>
+										<span style="font-size:1.4em">A costless (or very cheap) datasource.</span>
+									</li>
+									<li>
+										<span style="font-size:1.4em">Quality checked and verified.</span>
+									</li>
+									<li>
+										<span style="font-size:1.4em">Consistent.</span>
+									</li>
+									<li>
+										<span style="font-size:1.4em">Almost always up-to-date.</span>
+									</li>
+									<li>
+										<span style="font-size:1.4em">Community-driven!</span>
+									</li>
+								</ul>
+								<p>&nbsp;</p>
+								<p style="text-align:left">&nbsp;</p>
+								<p style="text-align:left">
+									<span style="font-size:1.8em">Who can compete with this?</span>
+								</p>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 236px; height: 176px; left: 644px; top: 22px;">
+							<div class="sl-block-content" style="z-index: 13;">
+								<img style="" data-natural-width="220" data-natural-height="164" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/669210/images/3595319/johnandjoko.gif"/>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 311px;">
+							<div class="sl-block-content" style="z-index: 11;">
+								<p>
+									<span style="font-size:2.0em">nobody</span>
+								</p>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="text" style="width: 806px; left: 34px; top: 46px; height: auto;">
+							<div class="sl-block-content" style="z-index: 10;">
+								<h1 style="text-align:left">
+									<span style="font-size:2.0em">We </span>
+								</h1>
+								<h1 style="text-align:left">
+									<span style="font-size:2.0em">are </span>
+								</h1>
+								<h1 style="text-align:left">
+									<span style="font-size:2.0em">winning!</span>
+								</h1>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				width: 960,
+				height: 700,
+				transition: "slide",
+				backgroundTransition: "slide",
+				center: false,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
