@@ -1,4 +1,5 @@
-# presentations
+# Presentations
+
 A place to drop and share your presentations about OpenStreetMap. 
 
 If you have your presentation in a file, upload it to Github. Then we can do versioning!
@@ -9,19 +10,14 @@ Post an issue if you need help.
 
 You can also drop a link below by editing the ReadMe.
 
+## Talks
 
-## Links ##
-Ben Abelshausen at BeGeo 2017
-- http://slides.com/benabelshausen-1/deck
+**Most of the talks we made can be found in the [`talks`](https://github.com/osmbe/presentations/tree/master/talks) folder.**
 
-Julien Minet at Café Numerique Arlon:
-- http://www.nobohan.be/docs/2015_03_23_CafeNumeriqueArlon_OpenStreetMap_Minet.odp
-- http://www.nobohan.be/docs/2015_03_23_CafeNumeriqueArlon_OpenStreetMap_Minet.pdf
- 
-Glenn Plas on OSM as an open data source
- - http://www.slideshare.net/glennplas/opendata-namen
+Here are some other talks :
 
+- 2015-02-23 : G. Plas : [OSM as an open data source (Namur)](http://www.slideshare.net/glennplas/opendata-namen)
 
-## license ##
+## License
 
 All presentations and materials available here are expected to be CC_BY, unless otherwise stated by the author.
