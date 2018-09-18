@@ -1,0 +1,1123 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="theme-font-montserrat theme-color-white-blue" style="width: 100%; height: 100%;">
+			<div class="reveal">
+				<div class="slides">
+					<section class="stack">
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 62px; top: 460px; height: auto;">
+								<div class="sl-block-content" style="z-index: 11; text-align: center;">
+									<p>by</p>
+									<p>OpenStreetMap-Belgium</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 774px; left: 62px; top: 191px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<p>
+										<span style="font-size:1.8em">The Belgian perspective to building an OpenStreetMap community</span>
+									</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 95px; height: 164px; left: 33px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 13;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 140px; height: 140px; left: 810px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 14;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 806px; height: 518px; left: 77px; top: 91px;">
+								<div class="sl-block-content" style="z-index: 15;"></div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 280px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10; text-align: center;" dir="ui">
+									<p>
+										<span style="font-size:2.5em">
+											<strong>Mission</strong>, strategy &amp; implementation
+										</span>
+									</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 95px; height: 164px; left: 33px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 140px; height: 140px; left: 810px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 13;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 81px; top: 129px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10; text-align: center;">
+									<h1>Our mission</h1>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="height: auto; width: 774px; left: 93px; top: 334px;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<p>
+										<span style="font-size:1.6em">
+											<em>Support and grow the OpenStreetMap community in Belgium</em>
+										</span>
+									</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 95px; height: 164px; left: 33px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 140px; height: 140px; left: 810px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 13;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 280px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10; text-align: center;" dir="ui">
+									<p>
+										<span style="font-size:2.5em">Mission,
+											<strong>strategy &amp; implementation</strong>
+										</span>
+									</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 95px; height: 164px; left: 33px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 140px; height: 140px; left: 810px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 27px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<h1>Strategy</h1>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 250px; height: auto;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<p>
+										<span style="font-size:1.4em">non-mappers -&gt; mappers</span>
+									</p>
+									<p>&nbsp;</p>
+									<p>
+										<strong>
+											<span style="font-size:1.4em">mappers -&gt; community</span>
+										</strong>
+									</p>
+									<p>&nbsp;</p>
+									<p>
+										<span style="font-size:1.4em">community -&gt; organisation</span>
+									</p>
+									<p>&nbsp;</p>
+									<p>
+										<span style="font-size:1.4em">organisation -&gt; networked organisation</span>
+									</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 95px; height: 164px; left: 33px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 140px; height: 140px; left: 810px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 14;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 93px; top: 33px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10; text-align: center;">
+									<h1>Strategy</h1>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="height: auto; width: 774px; left: 109px; top: 200px;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<p style="text-align:left">
+										<span style="font-size:1.6em">Community-first and radically 'open':</span>
+									</p>
+									<ul>
+										<li>
+											<span style="font-size:1.6em">extremely welcoming</span>
+										</li>
+										<li>
+											<span style="font-size:1.6em">open leadership</span>
+										</li>
+										<li>
+											<span style="font-size:1.6em">open collaboration</span>
+										</li>
+										<li>
+											<span style="font-size:1.6em">not radically 'open-source'</span>
+										</li>
+									</ul>
+									<p style="text-align:left">&nbsp;</p>
+									<p>&nbsp;</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 95px; height: 164px; left: 33px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 140px; height: 140px; left: 810px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 13;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 866px; left: 47px; top: 198px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10; text-align: center;">
+									<p>
+										<span style="font-size:1.6em">Be extremely welcoming!</span>
+									</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 95px; height: 164px; left: 33px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 140px; height: 140px; left: 810px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 93px; top: 33px; height: auto;">
+								<div class="sl-block-content" style="z-index: 13; text-align: center;">
+									<h1>Strategy</h1>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 859px; left: 54px; top: 320px;">
+								<div class="sl-block-content" style="z-index: 15;">
+									<ul>
+										<li style="text-align:left">
+											<span style="font-size:1.4em">
+												<strong>Don't exclude anyone!</strong>
+											</span>
+										</li>
+										<li style="text-align:left">
+											<span style="font-size:1.4em">Value different skills</span>
+										</li>
+										<li style="text-align:left">
+											<span style="font-size:1.4em">Always be nice, yes a code of conduct!</span>
+										</li>
+										<li style="text-align:left">
+											<span style="font-size:1.4em">Don't punish mistakes but encourage improvement.</span>
+										</li>
+									</ul>
+									<p>&nbsp;</p>
+									<p style="text-align:left">&nbsp;</p>
+									<p>&nbsp;</p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 736px; left: 112px; top: 27px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<h1>Crazy about mapping</h1>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 623px; left: 329px; top: 312px; height: auto;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<h2>be a club you</h2>
+									<h2>want to part of</h2>
+									<p>be welcoming</p>
+									<p>show appreciation</p>
+									<p>grow diversity</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 269px; height: 479px; left: 33px; top: 210px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<img style="" data-natural-width="405" data-natural-height="720" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/780962/images/5103060/C69DW6aWcAAEuWZ.jpg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 95px; height: 164px; left: 33px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 13;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 140px; height: 140px; left: 810px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 15;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="image" style="width: 95px; height: 164px; left: 33px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 140px; height: 140px; left: 810px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 60px; height: auto;">
+								<div class="sl-block-content" style="z-index: 12; text-align: center;">
+									<h2>
+										<span style="font-size:1.0em">Welcoming tool</span>
+									</h2>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 859px; left: 51px; top: 210px;">
+								<div class="sl-block-content" style="z-index: 14;">
+									<p style="text-align:left">&nbsp;</p>
+									<ul>
+										<li style="text-align:left">
+											<span style="font-size:1.4em">Send a message to
+												<strong>every</strong> mapper with a first edit in Belgium
+											</span>
+										</li>
+										<li style="text-align:left">
+											<span style="font-size:1.4em">Invite them to our channels</span>
+										</li>
+										<li style="text-align:left">
+											<span style="font-size:1.4em">Be nice even if they make mistakes and offer guidance and reassurance.</span>
+										</li>
+									</ul>
+									<p style="text-align:left">&nbsp;</p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="image" style="width: 95px; height: 164px; left: 33px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 140px; height: 140px; left: 810px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 719px; height: 498px; left: 137px; top: 202px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<img style="" data-natural-width="1219" data-natural-height="844" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/669210/images/5136745/welcoming-tool.jpg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 60px; height: auto;">
+								<div class="sl-block-content" style="z-index: 14; text-align: center;">
+									<h2>
+										<span style="font-size:1.0em">Welcoming tool</span>
+									</h2>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 612px; height: 503px; left: 176px; top: 197px;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<img style="" data-natural-width="405" data-natural-height="333" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/780962/images/5107059/kaartje.jpg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 95px; height: 164px; left: 33px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 140px; height: 140px; left: 810px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 13;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 637px; left: 162px; top: 60px; height: auto;">
+								<div class="sl-block-content" style="z-index: 15; text-align: center;">
+									<h2>The language issue</h2>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 866px; left: 47px; top: 179px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10; text-align: center;">
+									<p>
+										<span style="font-size:1.6em">Open leadership!</span>
+									</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 95px; height: 164px; left: 33px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 140px; height: 140px; left: 810px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 93px; top: 33px; height: auto;">
+								<div class="sl-block-content" style="z-index: 13; text-align: center;">
+									<h1>Strategy</h1>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="height: auto; width: 859px; left: 54px; top: 299px;">
+								<div class="sl-block-content" style="z-index: 14;">
+									<ul>
+										<li style="text-align:left">
+											<span style="font-size:1.4em">
+												<strong>Don't do everything yourself!</strong>
+											</span>
+										</li>
+										<li style="text-align:left">
+											<span style="font-size:1.4em">Give others credit and have them take the lead.</span>
+										</li>
+										<li style="text-align:left">
+											<span style="font-size:1.4em">Value different skill sets equally.</span>
+										</li>
+										<li style="text-align:left">
+											<span style="font-size:1.4em">Listen to community feedback all the time and act accordingly.</span>
+										</li>
+										<li style="text-align:left">
+											<span style="font-size:1.4em">Assume you won't be around forever.</span>
+										</li>
+									</ul>
+									<p>&nbsp;</p>
+									<p style="text-align:left">&nbsp;</p>
+									<p>&nbsp;</p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 866px; left: 47px; top: 66px; height: auto;">
+								<div class="sl-block-content" style="z-index: 11; text-align: center;">
+									<p>
+										<span style="font-size:1.6em">Open leadership!</span>
+									</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 95px; height: 164px; left: 33px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 140px; height: 140px; left: 810px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 13;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 695px; height: 473px; left: 160px; top: 173px;">
+								<div class="sl-block-content" style="z-index: 14;">
+									<img style="" data-natural-width="695" data-natural-height="473" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/669210/images/5139731/pasted-from-clipboard.png"/>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 47px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<h2>Just do it already</h2>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 647px;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<p>And start doing meetups</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 600px; height: 338px; left: 180px; top: 268px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<img data-natural-width="600" data-natural-height="338" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/780962/images/5103041/600_250250192.jpeg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 95px; height: 164px; left: 33px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 13;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 140px; height: 140px; left: 810px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 14;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 74px; top: 35px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<h2>Mapathons</h2>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 563px; left: 199px; top: 216px; height: auto;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<h2>great</h2>
+									<h2>to expand your team</h2>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 494px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<p>not great</p>
+									<p>to grow the total number</p>
+									<p>of mappers</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 95px; height: 164px; left: 33px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 13;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 140px; height: 140px; left: 810px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 14;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 866px; left: 47px; top: 198px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10; text-align: center;">
+									<p>
+										<span style="font-size:1.6em">Open collaboration!</span>
+									</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 95px; height: 164px; left: 33px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 140px; height: 140px; left: 810px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 93px; top: 33px; height: auto;">
+								<div class="sl-block-content" style="z-index: 13; text-align: center;">
+									<h1>Strategy</h1>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="height: auto; width: 859px; left: 51px; top: 299px;">
+								<div class="sl-block-content" style="z-index: 14;">
+									<ul>
+										<li style="text-align:left">
+											<span style="font-size:1.4em">
+												<strong>Work with other 'open' minded organizations!</strong>
+											</span>
+										</li>
+										<li style="text-align:left">
+											<span style="font-size:1.4em">Build a network around OSM users and contributing organizations.</span>
+										</li>
+										<li style="text-align:left">
+											<span style="font-size:1.4em">Recognize contributions from partners.</span>
+										</li>
+										<li style="text-align:left">
+											<span style="font-size:1.4em">Don't be afraid of companies, but not naive either.</span>
+										</li>
+									</ul>
+									<p>&nbsp;</p>
+									<p style="text-align:left">&nbsp;</p>
+									<p>&nbsp;</p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 866px; left: 45px; top: 66px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10; text-align: center;">
+									<p>
+										<span style="font-size:1.6em">Open collaboration!</span>
+									</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 95px; height: 164px; left: 33px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 140px; height: 140px; left: 810px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="height: auto; width: 859px; left: 52px; top: 254px;">
+								<div class="sl-block-content" style="z-index: 14;" dir="ui">
+									<ul>
+										<li style="text-align:left">
+											<span style="font-size:1.4em">Help companies to help OSM win!</span>
+										</li>
+										<li style="text-align:left">
+											<span style="font-size:1.4em">Help partner organizations to map specific to their need.</span>
+										</li>
+										<li style="text-align:left">
+											<span style="font-size:1.4em">Build tools to collaborate easier with governments.</span>
+										</li>
+									</ul>
+									<p>&nbsp;</p>
+									<p style="text-align:left">&nbsp;</p>
+									<p>&nbsp;</p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="image" style="width: 95px; height: 164px; left: 33px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 140px; height: 140px; left: 810px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 35px; height: auto;">
+								<div class="sl-block-content" style="z-index: 12; text-align: center;">
+									<h2>open Summer of code</h2>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 531px; height: 398px; left: 9px; top: 210px;">
+								<div class="sl-block-content" style="z-index: 13;">
+									<img style="" data-natural-width="1800" data-natural-height="1350" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/669210/images/5139714/osoc-temp.jpg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 355px; left: 569px; top: 194px; height: auto;">
+								<div class="sl-block-content" style="z-index: 14; text-align: center;">
+									<p>Building tools for quality checking and error correction for the Brussels government.</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 230px; height: 228px; left: 613px; top: 376px;">
+								<div class="sl-block-content" style="z-index: 16;">
+									<img style="" data-natural-width="1364" data-natural-height="1350" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/669210/images/4844675/brussels_logo.jpg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 1009px; left: -24px; top: 637px; height: auto;">
+								<div class="sl-block-content" style="z-index: 17; text-align: center;">
+									<p>Come to our road-completion talk on Monday @ 09:30!</p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="image" style="width: 95px; height: 164px; left: 33px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 140px; height: 140px; left: 810px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 92px; top: 44px; height: auto;">
+								<div class="sl-block-content" style="z-index: 13; text-align: center;">
+									<h2>Conferences</h2>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 61px; top: 521px; height: auto;">
+								<div class="sl-block-content" style="z-index: 14; text-align: center;">
+									<p>
+										<span style="font-size:1.4em">Share the workload of organizing a conference!</span>
+									</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 534px; height: 534px; left: -21px; top: 71px;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<img style="" data-natural-width="100" data-natural-height="100" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/669210/images/5136844/foss4gbe.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 387px; height: 184px; left: 532px; top: 249px;">
+								<div class="sl-block-content" style="z-index: 18;">
+									<img style="" data-natural-width="480" data-natural-height="228" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/669210/images/5136850/openbelgium2018wit.png"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 431px; height: 243px; left: 513px; top: 216px;">
+								<div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 17;">
+									<svg
+										xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 431 243">
+										<rect width="431" height="243" class="shape-element" fill="#000000"></rect>
+									</svg>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 866px; left: 47px; top: 316px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10; text-align: center;">
+									<p>
+										<span style="font-size:1.6em">Radically open but not radically open-source!</span>
+									</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 95px; height: 164px; left: 33px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 140px; height: 140px; left: 810px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 93px; top: 33px; height: auto;">
+								<div class="sl-block-content" style="z-index: 13; text-align: center;">
+									<h1>Strategy</h1>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 866px; left: 74px; top: 125px; height: auto;">
+								<div class="sl-block-content" style="z-index: 12; text-align: center;">
+									<p>
+										<span style="font-size:1.6em">Radically open but </span>
+									</p>
+									<p>
+										<span style="font-size:1.6em">not radically open-source!</span>
+									</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 95px; height: 164px; left: 33px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 13;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 140px; height: 140px; left: 810px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 14;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 93px; top: 33px; height: auto;">
+								<div class="sl-block-content" style="z-index: 15; text-align: center;">
+									<h1>Strategy</h1>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 207px; height: 207px; left: 733px; top: 210px;">
+								<div class="sl-block-content" style="z-index: 16;">
+									<img style="" data-natural-width="1350" data-natural-height="1350" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/907173/images/5139723/twitter.png"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 142px; height: 166px; left: 320px; top: 288px;">
+								<div class="sl-block-content" style="z-index: 17;">
+									<img style="" data-natural-width="550" data-natural-height="643" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/907173/images/5139722/riot.jpg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 244px; height: 153px; left: 47px; top: 512px;">
+								<div class="sl-block-content" style="z-index: 18;">
+									<img style="" data-natural-width="244" data-natural-height="153" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/907173/images/5139721/mailman.png"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 300px; height: 218px; left: 0px; top: 223px;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<img style="" data-natural-width="300" data-natural-height="218" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/907173/images/5139720/meetup.png"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 186px; height: 186px; left: 507px; top: 278px;">
+								<div class="sl-block-content" style="z-index: 19;">
+									<img style="" data-natural-width="1350" data-natural-height="1350" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/907173/images/5139719/facebook.png"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 154px; height: 77px; left: 786px; top: 422px;">
+								<div class="sl-block-content" style="z-index: 20;">
+									<img style="" data-natural-width="1280" data-natural-height="640" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/907173/images/5139718/irc.png"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 178px; height: 178px; left: 362px; top: 487px;">
+								<div class="sl-block-content" style="z-index: 21;">
+									<img style="" data-natural-width="439" data-natural-height="439" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/907173/images/5139727/github.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 189px; height: 189px; left: 600px; top: 505px;">
+								<div class="sl-block-content" style="z-index: 22;">
+									<img style="" data-natural-width="225" data-natural-height="225" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/907173/images/5139729/slack.png"/>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 866px; left: 74px; top: 183px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10; text-align: center;">
+									<p>
+										<span style="font-size:1.6em">Radically open but not radically open-source!</span>
+									</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 95px; height: 164px; left: 33px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 140px; height: 140px; left: 810px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 93px; top: 33px; height: auto;">
+								<div class="sl-block-content" style="z-index: 13; text-align: center;">
+									<h1>Strategy</h1>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="height: auto; width: 859px; left: 51px; top: 299px;">
+								<div class="sl-block-content" style="z-index: 14;">
+									<ul>
+										<li style="text-align:left">
+											<span style="font-size:1.4em">OSM it
+												<strong>not</strong> an open-source
+												<strong>software</strong>
+												<strong>project</strong>.
+											</span>
+										</li>
+										<li style="text-align:left">
+											<span style="font-size:1.4em">Keep focus on mapping not software.</span>
+										</li>
+										<li style="text-align:left">
+											<span style="font-size:1.4em">Promote OSS everywhere but use what works best.</span>
+										</li>
+										<li style="text-align:left">
+											<span style="font-size:1.4em">
+												<strong>Don't exclude anyone!</strong> Even those not using OSS.
+											</span>
+										</li>
+									</ul>
+									<p>&nbsp;</p>
+									<p style="text-align:left">&nbsp;</p>
+									<p>&nbsp;</p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 280px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10; text-align: center;" dir="ui">
+									<p>
+										<span style="font-size:2.5em">Learned from experience...</span>
+									</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 95px; height: 164px; left: 33px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 140px; height: 140px; left: 810px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 253px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<p>
+										<span style="font-size:3.0em">Do as little as possible!</span>
+									</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 95px; height: 164px; left: 33px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 140px; height: 140px; left: 810px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 573px; left: 180px; top: 27px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<h2>Talk like an organisation</h2>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 232px; height: auto;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<p>
+										<span style="font-size:1.4em">community@osm.be</span>
+									</p>
+									<p>&nbsp;</p>
+									<p>
+										<span style="font-size:1.4em">newsletter</span>
+									</p>
+									<p>&nbsp;</p>
+									<p>
+										<span style="font-size:1.4em">www.osm.be is not community-oriënted, we have a wiki for that!</span>
+									</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 95px; height: 164px; left: 33px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 140px; height: 140px; left: 810px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 13;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 627px; left: 160px; top: 27px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<h2>Having a paid employee helps a lot!</h2>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 95px; height: 164px; left: 33px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 140px; height: 140px; left: 810px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 13;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 390px; height: 390px; left: 496px; top: 225px;">
+								<div class="sl-block-content" style="z-index: 14;">
+									<img style="" data-natural-width="182" data-natural-height="182" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/669210/images/5139680/dries.jpeg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 369px; left: 56px; top: 313px; height: auto;">
+								<div class="sl-block-content" style="z-index: 15;">
+									<h2>Thank you Dries!</h2>
+									<p>&nbsp;</p>
+									<p>...thank you Open Knowledge Belgium!</p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 90px; top: 227px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<p>
+										<span style="font-size:2.5em">Talk in places people might not have heard you before...</span>
+									</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 95px; height: 164px; left: 33px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 140px; height: 140px; left: 810px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 81px; top: 140px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<p>
+										<span style="font-size:2.0em">Ever answered an OSM question with a sigh?</span>
+									</p>
+									<p>&nbsp;</p>
+									<p>
+										<em>
+											<span style="font-size:1.2em">"Why can't we just import all the buildings?</span>
+										</em>
+									</p>
+									<p>
+										<em>
+											<span style="font-size:1.2em">But 'machine learning', why still map?</span>
+										</em>
+									</p>
+									<p>
+										<em>Why is it so difficult to map an area?</em>
+									</p>
+									<p>
+										<em>Don't we need a code of conduct?"</em>
+									</p>
+									<p>&nbsp;</p>
+									<p>
+										<span style="font-size:2.0em">Can't someone else do it?</span>
+									</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 95px; height: 164px; left: 33px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 140px; height: 140px; left: 810px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 204px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<h1>What the global community can do for us?</h1>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 95px; height: 164px; left: 33px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 140px; height: 140px; left: 810px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 13;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 204px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<h1>Give us a voice, we became a local chapter...</h1>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 95px; height: 164px; left: 33px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="width: 140px; height: 140px; left: 810px; top: 27px; min-width: 4px; min-height: 4px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 253px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<h1>Be a club you want to join!</h1>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 95px; height: 164px; left: 33px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 140px; height: 140px; left: 810px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 13;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 27px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<h1>Let's make this
+										<br/>
+		a priority
+									</h1>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 61px; top: 233px; height: auto;">
+								<div class="sl-block-content" style="z-index: 11;" dir="ui">
+									<ul>
+										<li>
+											<span style="font-size:0.9em">
+												<s>following diaries</s>
+											</span>
+										</li>
+										<li>
+											<span style="font-size:0.9em">
+												<s>community index</s>
+											</span>
+										</li>
+										<li>
+											<span style="font-size:0.9em">
+												<s>reviewmychange</s>
+											</span>
+										</li>
+										<li>
+											<span style="font-size:0.9em">massive local messaging through OSM.org</span>
+										</li>
+										<li>
+											<span style="font-size:0.9em">basic statistics</span>
+										</li>
+										<li>
+											<span style="font-size:0.9em">extended membership waiver for OSMF</span>
+										</li>
+										<li>
+											<span style="font-size:0.9em">microfunding (domain, meetup,...)</span>
+										</li>
+										<li>
+											<span style="font-size:0.9em">local group website templates</span>
+										</li>
+										<li>
+											<span style="font-size:0.9em">dedicated channel</span>
+										</li>
+										<li>
+											<span style="font-size:0.9em">stickers and promo material</span>
+										</li>
+										<li>
+											<span style="font-size:0.9em">godfather program</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 95px; height: 164px; left: 33px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 140px; height: 140px; left: 810px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 14;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 74px; top: 202px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<p>
+										<span style="font-size:3.0em">&nbsp;Be positive!</span>
+									</p>
+									<p>&nbsp;</p>
+									<p>
+										<span style="font-size:3.0em">We are winning!</span>
+									</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 95px; height: 164px; left: 33px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<img style="" data-natural-width="476" data-natural-height="820" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/c/c6/State_of_the_Map_2018_logo.svg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 140px; height: 140px; left: 810px; top: 27px;">
+								<div class="sl-block-content" style="z-index: 13;">
+									<img style="" data-natural-width="256" data-natural-height="256" data-lazy-loaded="" data-src="https://wiki.openstreetmap.org/w/images/6/6c/Osm_belgium_logo.svg"/>
+								</div>
+							</div>
+						</section>
+					</section>
+				</div>
+			</div>
+		</div>
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				width: 960,
+				height: 700,
+				transition: "slide",
+				backgroundTransition: "slide",
+				center: false,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
