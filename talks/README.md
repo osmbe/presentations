@@ -1,5 +1,6 @@
 # Talks
 
+- 2018-10-25 : J. Beliën : [*Why (and how to) switch to OpenStreetMap for your website ?*](https://jbelien.github.io/talks/why-and-how-to-switch-to-openstreetmap-for-your-website/) @ [FOSS4G Belgium 2018](https://2018.foss4g.be/)
 - 2018-07-30 : B. Abelshausen : [*Road Completion in Belgium - Mapping & verifying \*all\* the roads.*](https://osmbe.github.io/presentations/talks/2018-07-30-road-completion-babelshausen/index.html) @ [State of the Map 2018](https://2018.stateofthemap.org/)
 - 2018-07-29 : J. Schouppe : [*Coordinating improved communication between the academic and OpenStreetMap communities*](https://osmbe.github.io/presentations/talks/2018-07-29-osm-science-jschouppe/index.html) @ [State of the Map 2018](https://2018.stateofthemap.org/)
 - 2018-07-28 : B. Abelshausen & J. Schouppe : [*The Belgian perspective to building OpenStreetMap community*](https://osmbe.github.io/presentations/talks/2018-07-28-openstreetmap-belgium-jschouppe-babelshausen/index.html) @ [State of the Map 2018](https://2018.stateofthemap.org/)
