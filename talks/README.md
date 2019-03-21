@@ -2,6 +2,7 @@
 
 - 2019-03-04 : [*Being the first to map new things*](https://slides.com/joostschouppe/on-being-first) @ [OpenBelgium 2019](http://2019.openbelgium.be/) by [J. Schouppe](https://github.com/joostschouppe)
 - 2019-03-04 : [*How to use OpenStreetMap on your website ?*](https://jbelien.github.io/talks/how-to-use-openstreetmap-on-your-website/) @ [OpenBelgium 2019](http://2019.openbelgium.be/) by [J. Beliën](https://github.com/jbelien/)
+- 2019-03-04 : [*What is OpenStreetMap ?*](https://pietervdvn.github.io/OpenBelgium%20What%20is%20Openstreetmap.pdf) @ [OpenBelgium 2019](http://2019.openbelgium.be/) by [P. Vander Vennet](https://github.com/pietervdvn/)
 - 2018-10-25 : [*Why (and how to) switch to OpenStreetMap for your website ?*](https://jbelien.github.io/talks/why-and-how-to-switch-to-openstreetmap-for-your-website/) @ [FOSS4G Belgium 2018](https://2018.foss4g.be/) by [J. Beliën](https://github.com/jbelien/)
 - 2018-07-30 : [*Road Completion in Belgium - Mapping & verifying \*all\* the roads.*](https://osmbe.github.io/presentations/talks/2018-07-30-road-completion-babelshausen/index.html) @ [State of the Map 2018](https://2018.stateofthemap.org/) by [B. Abelshausen](https://github.com/xivk/)
 - 2018-07-29 : [*Coordinating improved communication between the academic and OpenStreetMap communities*](https://osmbe.github.io/presentations/talks/2018-07-29-osm-science-jschouppe/index.html) @ [State of the Map 2018](https://2018.stateofthemap.org/) by [J. Schouppe](https://github.com/joostschouppe)
