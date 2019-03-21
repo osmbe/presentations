@@ -1,0 +1,503 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="theme-font-montserrat theme-color-white-blue" style="width: 100%; height: 100%;">
+			<div class="reveal">
+				<div class="slides">
+					<section class="stack">
+						<section>
+							<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 26px;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<p>
+										<span style="font-size:75.6px">On being first</span>
+									</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 361px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<h3>How OSM are consistently the first to map new stuff</h3>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 862px; left: 57px; top: 191px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<h1>How do we pull it off?</h1>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 74px; top: 453px; height: auto;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<h2>Data + humans</h2>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 960px; height: 681px; left: 0px; top: 0px;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<img style="" data-natural-width="1100" data-natural-height="780" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/907173/images/5405000/call_to_action.jpg"/>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 189px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<h1>15 become 7</h1>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 287px; height: auto;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<h2>And they like unique addresses</h2>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 806px; height: 685px; left: 109px; top: 8px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<img style="" data-natural-width="914" data-natural-height="777" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/907173/images/5405015/github.jpg"/>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 189px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<h1>Plan of attack</h1>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 287px; height: auto;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<p>
+										<span style="font-size:1.2em">Do all of the hard work in advance,
+											<br/>
+										</span>
+									</p>
+									<p>
+										<span style="font-size:1.2em">flick the switch on December 31st</span>
+									</p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 86px; top: 33px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<h2>Data model for streets</h2>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 846px; left: 57px; top: 235px; height: auto;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<ul>
+										<li>name = Current Name</li>
+										<li>proposed:name= Future Name</li>
+										<li>fixme:name = WikiProject_Belgium/Municipality_Fusions</li>
+									</ul>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 248px; left: 16px; top: 181px;">
+								<div class="sl-block-style" style="z-index: 12; transform: rotate(360deg);">
+									<div class="sl-block-content" style="z-index: 12;">
+										<p>
+											<span style="font-size:42px">until 31/12</span>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 450px; left: 47px; top: 490px; height: auto;">
+								<div class="sl-block-content" style="z-index: 15;">
+									<ul>
+										<li>name = Future Name</li>
+										<li>old_name= Current Name</li>
+									</ul>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 415px; left: 21px; top: 430px;">
+								<div class="sl-block-style" style="z-index: 16; transform: rotate(360deg);">
+									<div class="sl-block-content" style="z-index: 16;">
+										<p>
+											<span style="font-size:42px">from new years eve</span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 74px; top: 21px; height: auto;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<h1>Show 'em on a mapp</h1>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 426px; left: 27px; top: 644px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<p>
+										<a href="https://www.mapcontrib.xyz/t/2d975c-Geplande_adreswijzigingen_gemeentefusies" target="_blank">Link</a>
+									</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 310px; height: 518px; left: 442px; top: 132px;">
+								<div class="sl-block-content" style="z-index: 13;">
+									<img style="" data-natural-width="484" data-natural-height="809" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/907173/images/5405063/mapcontrib.jpg"/>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 960px; height: 670px; left: 0px; top: 16px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<img style="" data-natural-width="1175" data-natural-height="820" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/907173/images/5845685/midgard.jpg"/>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 384px; left: 48px; top: 105px; height: auto;">
+								<div class="sl-block-content" style="text-align: left; z-index: 10;">
+									<h2>Humans</h2>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 384px; left: 48px; top: 210px; height: auto;">
+								<div class="sl-block-content" style="text-align: left; z-index: 11;">
+									<p>pietervdvn</p>
+									<p>m!dgard</p>
+									<p>escada</p>
+									<p>seppe</p>
+									<p>joost schouppe</p>
+									<p>municipalities</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 384px; left: 528px; top: 105px; height: auto;">
+								<div class="sl-block-content" style="text-align: left; z-index: 12;">
+									<h2>Data</h2>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 384px; left: 528px; top: 210px; height: auto;">
+								<div class="sl-block-content" style="text-align: left; z-index: 13;">
+									<p>municipality websites (supported by ABB)</p>
+									<p>AIV - CRAB</p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 74px; top: 0px; height: auto;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<h1>You want to find the way in the future?</h1>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 806px; height: 456px; left: 74px; top: 231px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<img style="" data-natural-width="1049" data-natural-height="594" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/907173/images/5405086/mapcompare.jpg"/>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 960px; height: 540px; left: 0px; top: 69px;">
+								<div class="sl-block-content" style="z-index: 13;">
+									<img style="" data-natural-width="1280" data-natural-height="720" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/907173/images/5405248/breaking-news3.png"/>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 140px;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<p>
+										<span style="font-size:2.5em">Solution? </span>
+									</p>
+									<p>
+										<span style="font-size:2.5em">Let's map it even firster!</span>
+									</p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 189px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<h1>What we need?</h1>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 361px; left: 400px; top: 245px; height: auto;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<h2>&nbsp;</h2>
+									<h2 style="text-align: left;">+ humans</h2>
+									<h2 style="text-align: left;">+ data</h2>
+									<h2 style="text-align: left;">+ tools</h2>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 640px; left: 160px; top: 122px;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<h1>Do not make street level imagery without sharing it</h1>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 380px; left: 9px; top: 560px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<p style="text-align:left">If you're:</p>
+									<ul>
+										<li style="text-align: left;">an organisation</li>
+										<li style="text-align: left;">a human</li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 799px; left: 81px; top: 129px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<h1>Do not create private databases if that isn't really necessary</h1>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 380px; left: 9px; top: 560px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<p style="text-align:left">If you're:</p>
+									<ul>
+										<li style="text-align: left;">an organisation</li>
+										<li style="text-align: left;">a human</li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 146px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<h1>Make your data accessible</h1>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 191px; top: 350px;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<p>This slide still applies in too many places</p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 266px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<h1>Create excellent data</h1>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 380px; left: 14px; top: 643px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<p>
+										<span>If you're in an organisation</span>
+									</p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 266px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<h1>Join our community</h1>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 380px; left: 14px; top: 643px;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<p style="text-align:left">
+										<span>If you're a human (or not)</span>
+									</p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 810px; left: 75px; top: 382px; height: auto;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<h3>Buy us a camera, and w
+										<span>e'll work on your project first</span>
+									</h3>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 748px; left: 98px; top: 126px; height: auto;">
+								<div class="sl-block-content" style="z-index: 14;">
+									<h2>Help us make an open street view</h2>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 637px; left: 153px; top: 645px;">
+								<div class="sl-block-content" style="z-index: 16;">
+									<p>https://openstreetmap.be/en/support.html</p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 107px; height: auto;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<h2>Help us build our tools</h2>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="height: auto; width: 640px; left: 160px; top: 312px;">
+								<div class="sl-block-content" style="z-index: 13;">
+									<p>Road completion, cycle network integration, GRB</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="height: auto; width: 637px; left: 153px; top: 645px;">
+								<div class="sl-block-content" style="z-index: 14;">
+									<p>https://openstreetmap.be/en/support.html</p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 22px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<h1>Road completion?</h1>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 800px; left: 113px; top: 249px; height: auto;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<ul>
+										<li>
+											<p>
+												<span style="font-size:1.2em">Use open data</span>
+											</p>
+										</li>
+										<li>
+											<p>
+												<span style="font-size:1.2em">Find roads we might miss forever </span>
+											</p>
+										</li>
+										<li>
+											<p>
+												<span style="font-size:1.2em">Make sure gov data is not more up to date than we are</span>
+											</p>
+										</li>
+										<li>
+											<p>
+												<span style="font-size:1.2em">Give minimal quality assurance</span>
+											</p>
+										</li>
+									</ul>
+									<p>&nbsp;</p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 86px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<h1>Road completion status</h1>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 339px; height: auto;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<ul>
+										<li>
+											<p>
+												<span style="font-size:1.2em">Ready for Brussels</span>
+											</p>
+										</li>
+										<li>
+											<p>
+												<span style="font-size:1.2em">Reboot needed for Flanders</span>
+											</p>
+										</li>
+										<li>
+											<p>
+												<span style="font-size:1.2em">Data needed in Wallonia</span>
+											</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 266px; height: auto;">
+								<div class="sl-block-content" style="z-index: 10;">
+									<h1>Help us buy pizza</h1>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 426px; left: 27px; top: 252px; height: auto;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<p>www.OpenStreetMap.be</p>
+									<p>@osm_be</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 426px; left: 517px; top: 227px; height: auto;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<p>community@osm.be</p>
+									<p>Meetup.com/OpenStreetMap-Belgium</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 436px;">
+								<div class="sl-block-content" style="z-index: 13;">
+									<p>
+										<span style="font-size:1.6em">Visit our booth!</span>
+									</p>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 272px; height: 76px; left: 338px; top: 53px;">
+								<div class="sl-block-content" style="z-index: 14;">
+									<img data-natural-width="272" data-natural-height="76" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/907173/images/5845687/donate.jpg"/>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 579px;">
+								<div class="sl-block-content" style="z-index: 15;">
+									<p>www.tinyurl.com/openbelgium</p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 33px; height: auto;">
+								<div class="sl-block-content" style="z-index: 11;">
+									<h2>Links</h2>
+								</div>
+							</div>
+							<div class="sl-block" data-block-type="text" style="width: 948px; left: 0px; top: 361px; height: auto;">
+								<div class="sl-block-content" style="z-index: 12;">
+									<p style="text-align:left">
+										<span style="font-size:0.5em">https://www.pajot-zenne.be/sites/default/files/documenten/Pajot%20Zenne%20magazine%20zomer%202018.pdf
+											<br/>
+		http://www.fusiedeinzenevele.be/adreswijziging
+											<br/>
+		https://riot.im/app/#/room/#osmbe:matrix.org/
+											<br/>
+		https://github.com/osmbe/community_planning/issues/2
+											<br/>
+		https://www.mapcontrib.xyz/t/2d975c-Geplande_adreswijzigingen_gemeentefusies
+											<br/>
+		https://help.openstreetmap.org/questions/66446/overpass-query-addresses-near-a-street-with-the-same-name-and-a-special-tag
+											<br/>
+		https://tools.geofabrik.de/mc/#17/50.8659/4.3492&amp;num=3&amp;mt0=mapnik&amp;mt1=google-map&amp;mt2=here-map
+										</span>
+									</p>
+									<p style="text-align:left">&nbsp;</p>
+								</div>
+							</div>
+						</section>
+					</section>
+				</div>
+			</div>
+		</div>
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				width: 960,
+				height: 700,
+				transition: "slide",
+				backgroundTransition: "slide",
+				center: false,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>

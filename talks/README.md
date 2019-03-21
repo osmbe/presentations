@@ -1,6 +1,6 @@
 # Talks
 
-- 2019-03-04 : [*Being the first to map new things*](https://slides.com/joostschouppe/on-being-first) @ [OpenBelgium 2019](http://2019.openbelgium.be/) by [J. Schouppe](https://github.com/joostschouppe)
+- 2019-03-04 : [*Being the first to map new things*](https://osmbe.github.io/presentations/talks/2019-03-04-on-being-first-jschouppe/) @ [OpenBelgium 2019](http://2019.openbelgium.be/) by [J. Schouppe](https://github.com/joostschouppe)
 - 2019-03-04 : [*How to use OpenStreetMap on your website ?*](https://jbelien.github.io/talks/how-to-use-openstreetmap-on-your-website/) @ [OpenBelgium 2019](http://2019.openbelgium.be/) by [J. Beliën](https://github.com/jbelien/)
 - 2019-03-04 : [*What is OpenStreetMap ?*](https://pietervdvn.github.io/OpenBelgium%20What%20is%20Openstreetmap.pdf) @ [OpenBelgium 2019](http://2019.openbelgium.be/) by [P. Vander Vennet](https://github.com/pietervdvn/)
 - 2018-10-25 : [*Why (and how to) switch to OpenStreetMap for your website ?*](https://jbelien.github.io/talks/why-and-how-to-switch-to-openstreetmap-for-your-website/) @ [FOSS4G Belgium 2018](https://2018.foss4g.be/) by [J. Beliën](https://github.com/jbelien/)
